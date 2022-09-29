@@ -99,7 +99,7 @@ def get_birthday(birthday, year, today):
     else:
         birth_date = year_date
         birth_day = str(birth_date.__sub__(today)).split(" ")[0]
-    return str(birth_day).split('-')[1]?str(birth_day).split('-')[1]:birth_day
+    return if str(birth_day).split('-')[1] else birth_day
  
  
 def get_ciba():
